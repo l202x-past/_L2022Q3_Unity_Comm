@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/SampleScene.unity
+- path: Assets/week02_Serial_Arduino_to_Unity/Serial_Arduino_to_Unity.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
