@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/01_Serial_2A_Unity_to_Arduino/Serial_SimpleWrite.unity
+- path: Assets/01_Serial_1A_Arduino_to_Unity/Serial_SimpleRead.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

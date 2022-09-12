@@ -59,7 +59,10 @@
     <Compile Include="Assets\01_Serial_1C_Arduino_to_Unity_Delimiter\Serial_Read_Delimiter.cs" />
     <Compile Include="Assets\01_Serial_1B_Arduino_to_Unity_DataCleaning\Serial_SimpleRead_DataCleaning.cs" />
     <Compile Include="Assets\01_Serial_1A_Arduino_to_Unity\Serial_SimpleRead.cs" />
-    <Compile Include="Assets\01_Serial_2A_Unity_to_Arduino\Serial_SimpleWrite.cs" />
+    <Compile Include="Assets\01_Serial_2B_Unity_to_Arduino_Button_Toggle\Serial_SimpleWrite_Toggle.cs" />
+    <Compile Include="Assets\01_Serial_2A_Unity_to_Arduino_Button\Serial_SimpleWrite.cs" />
+    <Compile Include="Assets\01_Serial_2B_Unity_to_Arduino_Button_Toggle\Button_Toggle_Controller.cs" />
+    <Compile Include="Assets\01_Serial_2C_Unity_to_Arduino_Delimiter\Serial_Write_Delimiter.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
