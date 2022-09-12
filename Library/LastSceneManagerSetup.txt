@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/01_Serial_1A_Arduino_to_Unity/Serial_SimpleRead.unity
+- path: Assets/01_Serial_1C_Arduino_to_Unity_Delimiter/Serial_Read_Delimiter.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
