@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{2D1C1ECA-7AA5-2819-1024-737D44A20CED}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/01_Serial_1A_Arduino_to_Unity/Serial_SimpleRead_Test.cs">
+    <Files>
+      <File FileName="Assets/01_Serial_1A_Arduino_to_Unity/Serial_SimpleRead.cs" Line="40" Column="31" />
+      <File FileName="Assets/01_Serial_1A_Arduino_to_Unity/Serial_SimpleRead_Test.cs" Line="42" Column="1" NotebookId="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="1db774e6-d15e-4fdf-ac04-f3ccd9918351" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
