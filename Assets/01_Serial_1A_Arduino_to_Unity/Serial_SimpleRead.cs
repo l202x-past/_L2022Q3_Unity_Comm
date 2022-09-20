@@ -2,13 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 /*
- * 아래의 System.IO.Ports를 사용하기 위해서는
- * Unity Editor > Edit > Project Settings > Player > Other Settings > Configuration > Api Compatibility Level을
- * .NET 4.x로 설정하고 Unity Editor를 다시 시작해야 함 * 
+ * ?????? System.IO.Ports?? ???????? ????????
+ * Unity Editor > Edit > Project Settings > Player > Other Settings > Configuration > Api Compatibility Level??
+ * .NET 4.x?? ???????? Unity Editor?? ???? ???????? ?? * 
  */
-using System.IO.Ports;
 
-using System; // catch exception 처리를 위해 사용
+using System.IO.Ports;
+using System; // catch exception ?????? ???? ????
 
 /*
 Arduino Code
@@ -30,17 +30,17 @@ void loop() {
 public class Serial_SimpleRead : MonoBehaviour
 {
     /// <summary>
-    /// 시리얼 통신을 담당하는 arduino 객체 생성
+    /// ?????? ?????? ???????? arduino ???? ????
     /// </summary>
     SerialPort arduino;
 
     /// <summary>
-    /// 시리얼 포트
+    /// ?????? ????
     /// </summary>
     public string portName = "COM5";
 
     /// <summary>
-    /// 아두이노가 보내는 데이터를 저장하는 sting 변수
+    /// ?????????? ?????? ???????? ???????? sting ????
     /// </summary>
     public string serialIn;
 
@@ -48,24 +48,24 @@ public class Serial_SimpleRead : MonoBehaviour
     void Start()
     {
         ///
-        // PC에 활성화된 시리얼 포트의 목록 추출
+        // PC?? ???????? ?????? ?????? ???? ????
         ///
         string[] ports = SerialPort.GetPortNames();
 
         ///
-        // ports 배열 안에 있는 각 요소(가령, port)를 출력
+        // ports ???? ???? ???? ?? ????(????, port)?? ????
         foreach (string port in ports)
         {
             print(port);
         }
 
         ///
-        // arduino 객체를 포트 이름, 통신 속도에 맞춰 초기화
+        // arduino ?????? ???? ????, ???? ?????? ???? ??????
         ///
         arduino = new SerialPort(portName.ToString(), 9600);
 
         ///
-        // arduino 포트 개방
+        // arduino ???? ????
         ///
         arduino.Open();
     }
@@ -75,7 +75,11 @@ public class Serial_SimpleRead : MonoBehaviour
     {
         if (arduino.IsOpen)
         {
-            try
+            //serialIn = arduino.ReadLine();
+            //print(serialIn);
+
+           
+           try
             {
                 serialIn = arduino.ReadLine();
                 print(serialIn);
@@ -84,9 +88,11 @@ public class Serial_SimpleRead : MonoBehaviour
             {
                 print(e);
             }
+            
         }
 
     }
+
     void OnApplicationQuit()
     {
         arduino.Close();

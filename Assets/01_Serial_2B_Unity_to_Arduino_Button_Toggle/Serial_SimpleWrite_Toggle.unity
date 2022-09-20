@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657838, g: 0.49641234, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -208,7 +208,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 21640520}
-        m_TargetAssemblyTypeName: Serial_Button_Toggle_Controller, Assembly-CSharp
+        m_TargetAssemblyTypeName: Button_Toggle_Controller, Assembly-CSharp
         m_MethodName: ToggleButton
         m_Mode: 2
         m_Arguments:
@@ -640,7 +640,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fee5ad1d946f0545b89a9caac7a6f19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  portName: COM5
+  portName: /dev/tty.usbmodem14101
 --- !u!1 &1944454037
 GameObject:
   m_ObjectHideFlags: 0
