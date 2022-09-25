@@ -1,5 +1,0 @@
-sceneSetups:
-- path: Assets/01_Serial_2C_Unity_to_Arduino_Buttons/Serial_Write_Buttons.unity
-  isLoaded: 1
-  isActive: 1
-  isSubScene: 0
