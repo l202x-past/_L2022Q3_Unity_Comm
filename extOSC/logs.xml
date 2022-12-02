@@ -1,47 +1,20 @@
 <root>
-  <message info="Receiver: 8000. From: 127.0.0.1:62944" type="Received" timestamp="[17:52:07]">
-    <packet>L3Rlc3QAAAAsaQAAAAAAew==</packet>
-  </message>
-  <message info="Receiver: 8000. From: 127.0.0.1:62944" type="Received" timestamp="[17:52:07]">
-    <packet>L3Rlc3QAAAAsaQAAAAAAew==</packet>
-  </message>
-  <message info="Receiver: 8000. From: 127.0.0.1:62944" type="Received" timestamp="[17:52:06]">
-    <packet>L3Rlc3QAAAAsaQAAAAAAew==</packet>
-  </message>
-  <message info="Receiver: 8000. From: 127.0.0.1:62944" type="Received" timestamp="[17:52:06]">
-    <packet>L3Rlc3QAAAAsaQAAAAAAew==</packet>
-  </message>
-  <message info="Receiver: 8000. From: 127.0.0.1:62944" type="Received" timestamp="[17:52:05]">
-    <packet>L3Rlc3QAAAAsaQAAAAAAew==</packet>
-  </message>
-  <message info="Receiver: 8000. From: 127.0.0.1:62944" type="Received" timestamp="[17:52:04]">
-    <packet>L3Rlc3QAAAAsaQAAAAAAew==</packet>
-  </message>
-  <message info="Receiver: 8000. From: 127.0.0.1:62944" type="Received" timestamp="[17:52:03]">
-    <packet>L3Rlc3QAAAAsaQAAAAAAew==</packet>
-  </message>
-  <message info="Transmitter: 127.0.0.1:7000" type="Transmitted" timestamp="[17:51:58]">
+  <message info="Transmitter: 127.0.0.1:7000" type="Transmitted" timestamp="[16:49:31]">
     <packet>I2J1bmRsZQAAAAAAAAAAAAAAACAvZXhhbXBsZS8xAAAscwAASGVsbG8sIHdvcmxkIQAAAA==</packet>
   </message>
-  <message info="Receiver: 8000. From: 127.0.0.1:62944" type="Received" timestamp="[17:51:42]">
+  <message info="Receiver: 8000. From: 127.0.0.1:54792" type="Received" timestamp="[16:48:48]">
     <packet>L3Rlc3QAAAAsaQAAAAAAew==</packet>
   </message>
-  <message info="Receiver: 8000. From: 127.0.0.1:62944" type="Received" timestamp="[17:51:42]">
+  <message info="Receiver: 8000. From: 127.0.0.1:54792" type="Received" timestamp="[16:48:47]">
     <packet>L3Rlc3QAAAAsaQAAAAAAew==</packet>
   </message>
-  <message info="Receiver: 8000. From: 127.0.0.1:62944" type="Received" timestamp="[17:51:41]">
+  <message info="Receiver: 8000. From: 127.0.0.1:54792" type="Received" timestamp="[16:48:45]">
     <packet>L3Rlc3QAAAAsaQAAAAAAew==</packet>
   </message>
-  <message info="Receiver: 8000. From: 127.0.0.1:62944" type="Received" timestamp="[17:51:41]">
+  <message info="Receiver: 8000. From: 127.0.0.1:54792" type="Received" timestamp="[16:48:44]">
     <packet>L3Rlc3QAAAAsaQAAAAAAew==</packet>
   </message>
-  <message info="Receiver: 8000. From: 127.0.0.1:62944" type="Received" timestamp="[17:51:40]">
-    <packet>L3Rlc3QAAAAsaQAAAAAAew==</packet>
-  </message>
-  <message info="Receiver: 8000. From: 127.0.0.1:62944" type="Received" timestamp="[17:51:39]">
-    <packet>L3Rlc3QAAAAsaQAAAAAAew==</packet>
-  </message>
-  <message info="Receiver: 8000. From: 127.0.0.1:62944" type="Received" timestamp="[17:51:36]">
-    <packet>L3Rlc3QAAAAsaQAAAAAAew==</packet>
+  <message info="Transmitter: 127.0.0.1:7000" type="Transmitted" timestamp="[16:47:31]">
+    <packet>I2J1bmRsZQAAAAAAAAAAAAAAACAvZXhhbXBsZS8xAAAscwAASGVsbG8sIHdvcmxkIQAAAA==</packet>
   </message>
 </root>
